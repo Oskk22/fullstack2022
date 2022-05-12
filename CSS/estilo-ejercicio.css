@@ -1,0 +1,17 @@
+.clase1 {
+    text-align: center;
+}
+
+.clase2 {
+    text-align: center;
+}
+
+.clase1, .clase2 {
+    color: blue;
+    background-color: yellow;
+    r: green;
+}
+
+.clase3 {
+    color: red;
+}
