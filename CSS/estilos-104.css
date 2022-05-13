@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: inline-block;
+    border: 10px solid green;
+    }

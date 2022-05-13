@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.main-header {
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+header .main-header{
+    
+}
+
+img {
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+li .main-nav {
+    display: inline-block;
+    color: #2ddf5c;
+}
+
+ul .main-nav {
+    background-color: yellow;
+    display: inline-block;
+    color: #2ddf5c;
+}
+
+nav .main-nav {
+    background-color: purple;
+    color: #2ddf5c;
+}
