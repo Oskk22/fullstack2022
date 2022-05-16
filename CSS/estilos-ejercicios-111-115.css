@@ -1,0 +1,39 @@
+* {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 100px;
+}
+
+p {
+    color: crimson;
+    font-family: 'montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+    font-style: italic;
+    vertical-align: bottom;
+    
+}
+
+h2 {
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
+}
+
+h3 {
+    font-size: large;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h5 {
+    font-variant: initial;
+}
+
+h6 {
+    vertical-align: middle;
+}
