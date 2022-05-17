@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRUEBA JAVASCRIPT</title>
+    <script src="../JAVASCRIPT/pruebas-javascript.js"></script>
+    <script>alert("Ventana de alerta");</script>
+</head>
+<body>
+    <h1>Pruebas JAVASCRIPT (frontend)</h1>
+    <p id="demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button type="submit" onclick="myFunction()">CLICA PARA CAMBIAR</button>
+    <p id="volver">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button type="submit" onclick="myFunction()">VOLVER</button>
+   <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML="Parrafo cambiado";
+        }
+        function myFunction() {
+            document.getElementById("volver").innerHTML="Parrafo cambiado";
+        }
+    </script>
+    <script>
+        console.log('hola');
+        // en un lugar de la mancha
+        console.log('en', 'un', 'lugar', 'de', 'la', 'Mancha');
+        console.info('Info');
+        console.warn('Warning');
+        console.error('Error');
+    </script>
+    <script>
+        const nombre = prompt("Escriba su nombre")
+        console.log(nombre);
+    </script>
+    <script>
+        const conf = confirm("si o no");
+        console.log(conf);
+    </script>
+</body>
+</html>
