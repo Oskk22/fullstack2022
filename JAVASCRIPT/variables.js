@@ -28,6 +28,9 @@ let alert2 = 5;
 alert2 = 6  
 
 // EJERCICIO 164-165
-var a = '1';
-var b = '2';
-var c = '3';
+let a=1, b=3, c=7;
+console.log(a+b+c); //variables sumadas a+b+c= 1+3+7=11
+c=13; //cambio valor de numero
+console.log(a+b+c); //variables sumadas a+b+c= 1+3+13=17
+
+
