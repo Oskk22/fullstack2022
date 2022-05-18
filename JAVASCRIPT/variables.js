@@ -1,5 +1,5 @@
 // kebap-case (no permitido en JS)
-const last-name = 'Doe';
+//const last-name = 'Doe';
 // snake_case (recomendado en otros lenguajes como Phyton)
 const last_name = 'last_name';
 // PascalCase (recomendado en Js para las clases)
@@ -33,4 +33,30 @@ console.log(a+b+c); //variables sumadas a+b+c= 1+3+7=11
 c=13; //cambio valor de numero
 console.log(a+b+c); //variables sumadas a+b+c= 1+3+13=17
 
+//EJERCICIO ARRAY
+const semana=["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+console.log(semana[0]);
+console.log(semana[1]);
+console.log(semana[2]);
+console.log(semana[3]);
+console.log(semana[4]);
+console.log(semana[5]);
+console.log(semana[6]);
+//Lenght para arrays
+console.log(semana.lenght);
 
+//1.-CONVERSION DE STRING A NUMBER
+const a = parseInt('2');
+const b = +'2'
+const c = +'d'
+const d = ('2')
+
+//2.-CONVERSION DE NUMBER A STRING
+const a = 2;
+console.log(a.toString());
+console.log(String(a));
+
+//3.-CONVERSION DE BOOLEAN A STRING
+const a = false;
+console.log(a.String(a))
+console.log(false.toString())
