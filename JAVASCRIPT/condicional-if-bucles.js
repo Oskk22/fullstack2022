@@ -1,5 +1,5 @@
 //CONDICIONALES IF + SWITCH
-//EJERCICIOS 2 PAGINA 168 lll
+//EJERCICIOS 2 PAGINA 168 
 let a=2, b=4, c=3, d=5;
 suma1=a+b;
 suma2=c+d;
